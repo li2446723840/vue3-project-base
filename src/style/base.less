@@ -1,0 +1,19 @@
+/**
+ * @description 存放less全局变量、混合等
+ */
+
+@border-color: #cfcfcf;
+@hover-bg: #ecf5ff;
+
+// 文字超出...显示
+.common-ellipsis(@width) {
+  max-width: @width;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.common-flex(@jc: center, @ai: center) {
+  display: flex;
+  justify-content: @jc;
+  align-items: @ai;
+}
